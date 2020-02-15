@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .main-page {
@@ -10,10 +10,9 @@
 }
 
 /*  main-header */
-
 .main-header {
   height: 550px;
-  background-image: url(https://s3-media3.fl.yelpcdn.com/assets/srv0/yelp_large_assets/65e6a224ada4/assets/img/home/hero_photos/cz8iYo13MpBBGlFLlkA8Sw.jpg);
+  background-image: url(https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/507de6a720e4/assets/img/home/hero_photos/pkwm_5P7XMoIXHOzQR0Y7A.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -114,7 +113,6 @@
 }
 
 /* Search-Box start here */
-
 .search {
   width: 960px;
   font-size: 0;
@@ -123,7 +121,6 @@
 }
 
 /* Categories box style */
-
 .categories {
   margin-bottom: 110px;
 }
@@ -145,7 +142,7 @@
 }
 
 .categories-list .categories-list__link {
-  display:inline-block;
+  display: inline-block;
   font-size: 0.875rem;
   font-weight: bold;
   color: #fff;
@@ -187,8 +184,7 @@ img.categories-list__img.delivery-icon {
   object-position: -94px -2431px;
 }
 
- /* copyright-photo-block */
-
+/* copyright-photo-block */
 .copyright-block {
   font-size: 1.1rem;
   text-align: center;
@@ -215,13 +211,8 @@ img.categories-list__img.delivery-icon {
   text-decoration: underline;
 }
 
-
 /* main-content */
-
-
-.main-content {
-
-}
+.main-content {}
 
 .main-wrapper {
   width: 1000px;
@@ -286,13 +277,12 @@ img.categories-list__img.delivery-icon {
   margin-bottom: 25px;
 }
 
-.restaurants__row {
-}
+.restaurants__row {}
 
 .restaurants__col {
   display: inline-block;
-	border: 1px solid #e6e6e6;
-	border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
   margin: 0 16px;
   user-select: none;
 }
@@ -318,15 +308,14 @@ img.categories-list__img.delivery-icon {
   bottom: 9px;
   width: 15px;
   height: 15px;
-  background-image: url(https://s3-media2.fl.yelpcdn.com/assets/srv0/svg_icons/aafb83c8f161/assets/sprite.png);
   background-position: -2px -2756px;
 }
 
 .restaurants-container {
   font-size: 14px;
-	font-family: sans-serif;
-	font-stretch: extra-condensed;
-	padding: 12px;
+  font-family: sans-serif;
+  font-stretch: extra-condensed;
+  padding: 12px;
 }
 
 .restaurants__name {
@@ -336,15 +325,13 @@ img.categories-list__img.delivery-icon {
 
 .restaurants__name-link {
   font-family: sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	color: #0073bb;
-	text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0073bb;
+  text-decoration: none;
 }
 
-.restaurants__name-link:hover {
-
-}
+.restaurants__name-link:hover {}
 
 .restaurants__rating {
   margin-bottom: 7px;
@@ -353,45 +340,44 @@ img.categories-list__img.delivery-icon {
 
 .restaurants__rating__star.four-stars {
   display: inline-block;
-	width: 102px;
-	height: 18px;
-	background-image: url(https://s1.postimg.org/8z2l2o6o8f/stars_sprite.png);
-	background-position: 0 194px;
-	margin: 0;
-	padding: 0;
-	color: transparent;
-	user-select: none;
+  width: 102px;
+  height: 18px;
+  background-position: 0 194px;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  user-select: none;
   vertical-align: bottom;
 }
 
 .restaurants__rating__star.five-stars {
   display: inline-block;
-	width: 102px;
-	height: 18px;
-	background-image: url(https://s1.postimg.org/8z2l2o6o8f/stars_sprite.png);
-	background-position: 0 158px;
-	margin: 0;
-	padding: 0;
-	color: transparent;
-	user-select: none;
+  width: 102px;
+  height: 18px;
+  background-image:
+    background-position: 0 158px;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  user-select: none;
 }
 
 .restaurants__rating .review-counter {
-	display: inline-block;
-	padding: 0;
-	color: #666;
-	user-select: none;
+  display: inline-block;
+  padding: 0;
+  color: #666;
+  user-select: none;
   vertical-align: text-top;
 }
 
 .restaurants-info {
   color: #333;
-	margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .restaurants-info__cost {
   font-size: 14px;
-	padding-right: 10px;
+  padding-right: 10px;
 }
 
 .restaurants-info__food {
@@ -399,32 +385,30 @@ img.categories-list__img.delivery-icon {
 }
 
 .restaurants-info__food:before {
-	content: "\2022";
-	position: relative;
-	left: -7px;
-	top: 0;
-	color: #999;
+  content: "\2022";
+  position: relative;
+  left: -7px;
+  top: 0;
+  color: #999;
 }
 
-.restaurants-timetable {
-
-}
+.restaurants-timetable {}
 
 .restaurants-timetable .work-days {
-	position: relative;
-	font-size: 14px;
-	color: #f15c00;
-	padding-left: 25px;
+  position: relative;
+  font-size: 14px;
+  color: #f15c00;
+  padding-left: 25px;
 }
 
 .work-days:before {
-	position: absolute;
-	top: -2px;
-	left: 0;
-	content: '';
-	width: 18px;
-	height: 18px;
-	background-image: url(https://s1.postimg.org/4ku8c7enyn/fire.png);
+  position: absolute;
+  top: -2px;
+  left: 0;
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-image:
 }
 
 .menu-category__more {
@@ -474,6 +458,7 @@ img.categories-list__img.delivery-icon {
   font-size: 16px;
   color: #d32323;
 }
+
 .additional-info a {
   color: #0073bb;
   text-decoration: none;
@@ -570,8 +555,7 @@ img.categories-list__img.delivery-icon {
   padding: 16px 0 7px 0;
 }
 
-.category-heading-wrapper {
-}
+.category-heading-wrapper {}
 
 .category-heading-wrapper h2 {
   font-size: 21px;
@@ -626,11 +610,8 @@ img.categories-list__img.delivery-icon {
   text-decoration: none;
 }
 
-  /* helpful-info section */
-
-.helpful-info {
-
-}
+/* helpful-info section */
+.helpful-info {}
 
 .helpful-info__wrapper {
   width: 960px;
@@ -653,8 +634,7 @@ img.categories-list__img.delivery-icon {
   margin-right: 26px;
 }
 
-.reviews__row {
-}
+.reviews__row {}
 
 .reviews__row_wrapper {
   border: 1px solid #e6e6e6;
@@ -761,13 +741,9 @@ img.categories-list__img.delivery-icon {
   margin-bottom: 16px;
 }
 
-.recent-lists .restaurants__name a {
+.recent-lists .restaurants__name a {}
 
-}
-
-.recent-lists .restaurants__name a:hover {
-
-}
+.recent-lists .restaurants__name a:hover {}
 
 .recent-lists .restaurants__rating {
   margin-bottom: 15px;
@@ -803,7 +779,7 @@ img.categories-list__img.delivery-icon {
   left: 9px;
   width: 15px;
   height: 15px;
-  background-image: url(https://s3.postimg.org/91z9xng9f/stars.png);
+  background-image:
 }
 
 .stat-container p a {
@@ -830,7 +806,7 @@ img.categories-list__img.delivery-icon {
   right: 8px;
   width: 40px;
   height: 40px;
-  background-image: url(https://s3-media1.fl.yelpcdn.com/assets/srv0/yelp_styleguide/8bb21835695e/assets/img/badge_banner_icons/40x40_rotd.png);
+  background-image:
 }
 
 .review-of-the-day p {
@@ -909,14 +885,12 @@ img.categories-list__img.delivery-icon {
 /***************
 RECENT-ACTIVITY
 ***************/
-
 .recent-activity {
   width: 960px;
   margin: 0 auto;
 }
 
-.recent-activity__wrapper {
-}
+.recent-activity__wrapper {}
 
 .recent-activity__heading h2 {
   display: block;
@@ -941,9 +915,7 @@ h3.recent-activity__heading a {
   text-decoration: none;
 }
 
-.recent-activity__row {
-
-}
+.recent-activity__row {}
 
 .recent-activity__col {
   max-width: 300px;
@@ -1005,8 +977,7 @@ h3.recent-activity__heading a {
   color: #0073bb;
 }
 
-.recent-activity__col.feedback {
-}
+.recent-activity__col.feedback {}
 
 .recent-activity__col.feedback p {
   font-size: 14px;
@@ -1094,59 +1065,56 @@ h3.recent-activity__heading a {
 }
 
 .recent-activity__reaction .funny:hover {
-  background-image: url(https://s1.postimg.org/33i78fsoxb/funny_icn_hover.png);
+  background-image:
 }
 
 .recent-activity__reaction .useful:hover {
-  background-image: url(https://s1.postimg.org/1dv2odsacv/useful_icn_hover.png);
+  background-image:
 }
 
 .recent-activity__reaction .cool:hover {
-  background-image: url(https://s24.postimg.org/q6qzribxx/cool_icn_hover.png);
+  background-image:
 }
 
 .recent-activity__reaction .compliment:hover {
-  background-image: url(https://s15.postimg.org/6h9t40sp7/compl_icn_hover.png);
+  background-image:
 }
 
 .recent-activity__likes .fb-img-like:hover {
-  background-image: url(https://s2.postimg.org/sk66m6sdl/like_hover.png);
-  background-repeat: no-repeat;
+  background-image:
+    background-repeat: no-repeat;
   text-decoration: none;
 }
 
 /* nav li a:hover:after{ width: 100%; } */
-
 .reaction-item.useful {
-  background-image: url(https://s18.postimg.org/4mbtuyvdl/useful_icn.png);
-  background-repeat: no-repeat;
+  background-image:
+    background-repeat: no-repeat;
 }
 
 .reaction-item.funny {
-  background-image: url(https://s2.postimg.org/mumzpcbsp/funny_icn.png);
-  background-repeat: no-repeat;
+  background-image:
+    background-repeat: no-repeat;
 }
 
 .reaction-item.cool {
-  background-image: url(https://s29.postimg.org/zerjdu5bb/cool_icn.png);
-  background-repeat: no-repeat;
+  background-image:
+    background-repeat: no-repeat;
 }
 
 .reaction-item.compliment {
   position: relative;
   top: 0;
   left: 145px;
-  background-image: url(https://s14.postimg.org/o0tpl6kz5/compl_icn.png);
-  background-repeat: no-repeat;
+  background-image:
+    background-repeat: no-repeat;
 }
 
 .photo-wrapper {
   padding: 0 5px 5px 5px;
 }
 
-.photo-block {
-
-}
+.photo-block {}
 
 .photo-block img {
   border-radius: 2px 2px 0 0;
@@ -1173,7 +1141,6 @@ h3.recent-activity__heading a {
 }
 
 /* FOOTER */
-
 .show-more-wrapper {
   display: block;
   width: 960px;
@@ -1198,8 +1165,8 @@ h3.recent-activity__heading a {
   width: 14px;
   height: 9px;
   margin-right: 10px;
-  background-image: url(https://s17.postimg.org/65f1h7i9r/arrow_dn.png);
-  background-repeat: no-repeat;
+  background-image:
+    background-repeat: no-repeat;
   cursor: pointer;
   vertical-align: center;
   padding-bottom: 1px;
@@ -1211,7 +1178,6 @@ h3.recent-activity__heading a {
 }
 
 /* Mobile Apps Section Start Here */
-
 .mobile-apps {
   width: 960px;
   margin: 0 auto;
@@ -1219,9 +1185,7 @@ h3.recent-activity__heading a {
   margin-bottom: 73px;
 }
 
-.mobile-apps__wrapper {
-
-}
+.mobile-apps__wrapper {}
 
 h2.mobile-apps__heading {
   font-size: 21px;
@@ -1279,7 +1243,7 @@ a.mobile-apps__link {
 }
 
 .left-col.mobile-apps__link {
- margin-right: 100px;
+  margin-right: 100px;
 }
 
 .mobile-apps__os.iOS:hover {
@@ -1298,9 +1262,7 @@ a.mobile-apps__link {
   overflow: hidden;
 }
 
-
 /* footer start's here */
-
 .main-footer {
   display: block;
   min-height: 516px;
@@ -1436,10 +1398,9 @@ a.mobile-apps__link {
   background-color: #fff;
   padding: 14px;
   cursor: pointer;
- }
+}
 
-.languages-list__item.title:hover
-.languages-sublist .languages-sublist__item {
+.languages-list__item.title:hover .languages-sublist .languages-sublist__item {
   display: block;
 }
 
@@ -1480,10 +1441,9 @@ a.mobile-apps__link {
   background-color: #fff;
   padding: 14px;
   cursor: pointer;
- }
+}
 
-.countries-list__item.title:hover
-.countries-sublist .countries-sublist__item {
+.countries-list__item.title:hover .countries-sublist .countries-sublist__item {
   display: block;
 }
 
@@ -1511,20 +1471,6 @@ a.mobile-apps__link {
   margin: 0 auto;
   line-height: 1.1em;
 }
-
-/* ################################# */
-/* 04.09.2017 */
-/* 05.09.2017 */
-/* 06.09.2017 */
-/* 11.09.2017 */
-/* 13.09.2017 */
-/* 14.09.2017 */
-/* 18.09.2017 */
-/* 20.09.2017 */
-/* 21.09.2017 */
-/* 27.09.2017 */
-/* 28.09.2017 */
-/* 17.10.2017 */
 
 .left-side {
   position: relative;
@@ -1642,9 +1588,7 @@ a.mobile-apps__link {
   display: inline-block;
   content: '';
   width: 24px;
-  height: 24px;
-  background-image: url(https://s26.postimg.org/lkouja0w9/sprite.png);
-  background-position: 0 -2px;
+  height: 24px background-position: 0 -2px;
 }
 
 .restaraunts.left-side__sublink:hover::before {
@@ -1654,7 +1598,6 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/itbyiltvt/sprite_white.png);
   background-position: -2px -8px;
 }
 
@@ -1666,7 +1609,6 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/tbtuao01l/bar_wht.png);
   background-position: 0 -2px;
 }
 
@@ -1677,7 +1619,6 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/xyzwcfneh/bar_blue.png);
   background-position: 0px -2px;
 }
 
@@ -1689,7 +1630,6 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/lkouja0w9/sprite.png);
   background-position: 0 -91px;
 }
 
@@ -1700,7 +1640,6 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/itbyiltvt/sprite_white.png);
   background-position: -5px -68px;
 }
 
@@ -1712,7 +1651,6 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/lkouja0w9/sprite.png);
   background-position: 0 -134px;
 }
 
@@ -1723,7 +1661,6 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/itbyiltvt/sprite_white.png);
   background-position: -3px -93px;
 }
 
@@ -1735,8 +1672,8 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/lkouja0w9/sprite.png);
-  background-position: 0 -177px;
+  background-image:
+    background-position: 0 -177px;
 }
 
 .takeout.left-side__sublink:hover::before {
@@ -1746,8 +1683,8 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/itbyiltvt/sprite_white.png);
-  background-position: -5px -120px;
+  background-image:
+    background-position: -5px -120px;
 }
 
 .reservations.left-side__sublink {
@@ -1762,8 +1699,8 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/lkouja0w9/sprite.png);
-  background-position: 0 -220px;
+  background-image:
+    background-position: 0 -220px;
 }
 
 .reservations.left-side__sublink:hover::before {
@@ -1773,11 +1710,11 @@ a.mobile-apps__link {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(https://s26.postimg.org/itbyiltvt/sprite_white.png);
-  background-position: -5px -145px;
+  background-image:
+    background-position: -5px -145px;
 }
 
-.field:focus ~ .left-side__sublist {
+.field:focus~.left-side__sublist {
   position: absolute;
   display: block;
   margin-bottom: 0;
@@ -1797,7 +1734,6 @@ a.mobile-apps__link {
 }
 
 /* right-side */
-
 .right-side {
   display: inline-block;
   width: 417px;
@@ -1816,7 +1752,6 @@ a.mobile-apps__link {
 }
 
 /* right-side dropdown */
-
 .right-side__sublist {
   position: absolute;
   display: none;
@@ -1866,7 +1801,6 @@ a.mobile-apps__link {
   width: 20px;
   height: 20px;
   box-sizing: border-box;
-  background-image: url(https://s26.postimg.org/r1a5huswp/location.png);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -1879,24 +1813,21 @@ a.mobile-apps__link {
   width: 20px;
   height: 20px;
   box-sizing: border-box;
-  background-image: url(https://s26.postimg.org/9roq2ti9l/location_blue.png);
 }
 
-.field:focus ~ .right-side__sublist {
+.field:focus~.right-side__sublist {
   display: block;
 }
 
 /* /right-side dropdown */
-
 /* right-side button */
-
 .search-button {
   display: inline-block;
   width: 63px;
   height: 45px;
   box-sizing: border-box;
   background-color: #D32323;
-  background-image: url(https://s26.postimg.org/v8mlp8w49/search.png);
+  background-image;
   background-repeat: no-repeat;
   background-position: 17px 8px;
   color: #fff;
